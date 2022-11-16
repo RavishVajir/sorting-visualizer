@@ -1,7 +1,5 @@
 /*
     *****************
-    DONE BY:-   TUMMALA KETHAN
-    
     *****************
 */
 
@@ -92,9 +90,6 @@ function runalgo()
     }
 }
 
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    
+/*  
     *****************
 */
