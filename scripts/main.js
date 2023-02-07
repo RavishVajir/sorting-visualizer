@@ -25,6 +25,7 @@ inp_as.addEventListener("input",update_array_size);
 function generate_array()
 {
     cont.innerHTML="";
+    cont.style="background-color:#E8D2A6"
 
     for(var i=0;i<array_size;i++)
     {
@@ -32,7 +33,7 @@ function generate_array()
         divs[i]=document.createElement("div");
         cont.appendChild(divs[i]);
         margin_size=0.1;
-        divs[i].style=" margin:0% " + margin_size + "%; background-color:blue; width:" + (100/array_size-(2*margin_size)) + "%; height:" + (div_sizes[i]) + "%;";
+        divs[i].style=" margin: auto " + margin_size + "% 0%; background-color:#F48484; width:" + (100/array_size-(2*margin_size)) + "%; height:" + (div_sizes[i]) + "%;";
     }
 }
 
